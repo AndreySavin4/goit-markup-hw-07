@@ -1,0 +1,32 @@
+.benefits {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.benefist__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--background-color-team);
+}
+
+.benefits__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.benefits__text {
+  min-width: 270px;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--second-color);
+}

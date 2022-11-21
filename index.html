@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Наведение по сайту -->
@@ -132,7 +132,7 @@
       <!-- Род занятий -->
       <section class="work section">
         <div class="container">
-          <h2 class="work__title --margin-bottom50">Чим ми займаємося</h2>
+          <h2 class="work__title --mb50">Чим ми займаємося</h2>
           <ul class="works">
             <li class="work__item">
               <img src="./images/img.jpg" alt="Робота" width="370" />
@@ -159,13 +159,15 @@
       <!-- Команда -->
       <section class="comand section">
         <div class="container">
-          <h2 class="comand__title --margin-bottom50">Наша команда</h2>
+          <h2 class="comand__title --mb50">Наша команда</h2>
           <ul class="comands">
             <li class="comands__item">
               <img src="./images/person1.jpg" alt="Портрет" width="270" />
               <div class="employee">
-                <p class="employee__name --margin-bottom10">Ігор Дем'яненко</p>
-                <p class="employee__position --margin-bottom16">Product Designer</p>
+                <p class="employee__name --mb10">Ігор Дем'яненко</p>
+                <p class="employee__position employee__position--mb16">
+                  Product Designer
+                </p>
                 <ul class="media">
                   <li class="socials">
                     <a class="socials__link" href="">
@@ -201,8 +203,10 @@
             <li class="comands__item">
               <img src="./images/person4.jpg" alt="Портрет" width="270" />
               <div class="employee">
-                <p class="employee__name --margin-bottom10">Ольга Рєпіна</p>
-                <p class="employee__position --margin-bottom16">Frontend Developer</p>
+                <p class="employee__name --mb10">Ольга Рєпіна</p>
+                <p class="employee__position employee__position--mb16">
+                  Frontend Developer
+                </p>
                 <ul class="media">
                   <li class="socials">
                     <a class="socials__link" href="">
@@ -238,8 +242,10 @@
             <li class="comands__item">
               <img src="./images/person3.jpg" alt="Портрет" width="270" />
               <div class="employee">
-                <p class="employee__name --margin-bottom10">Микола Тарасов</p>
-                <p class="employee__position --margin-bottom16">Marketing</p>
+                <p class="employee__name --mb10">Микола Тарасов</p>
+                <p class="employee__position employee__position--mb16">
+                  Marketing
+                </p>
                 <ul class="media">
                   <li class="socials">
                     <a class="socials__link" href="">
@@ -275,8 +281,10 @@
             <li class="comands__item">
               <img src="./images/person2.jpg" alt="Портрет" width="270" />
               <div class="employee">
-                <p class="employee__name --margin-bottom10">Михайло Єрмаков</p>
-                <p class="employee__position --margin-bottom16">UI Designer</p>
+                <p class="employee__name --mb10">Михайло Єрмаков</p>
+                <p class="employee__position employee__position--mb16">
+                  UI Designer
+                </p>
                 <ul class="media">
                   <li class="socials">
                     <a class="socials__link" href="">
@@ -316,7 +324,7 @@
       <!-- Постоянные Клиенты -->
       <section class="section">
         <div class="container">
-          <h2 class="clients-title --margin-bottom50">Постійні клієнти</h2>
+          <h2 class="clients-title clients-title--mb50">Постійні клієнти</h2>
           <ul class="clients-list">
             <li class="clients-item">
               <a class="clients-link" href="#">
@@ -372,7 +380,7 @@
           <div class="footer-contact">
             <a href="./index.html" class="footer-logo"
               ><span class="logo-first">Web</span
-              ><span class="logo-second color">Studio</span>
+              ><span class="logo-second logo-second-color">Studio</span>
             </a>
             <address class="address">
               <ul class="footer-item">
@@ -399,33 +407,33 @@
             </address>
           </div>
 
-          <div class="socials">
-            <p class="socials-title">Приєднуйтесь</p>
-            <ul class="social-list">
-              <li class="social-item">
-                <a class="social-link" href="">
-                  <svg class="social-icon" width="20" height="20">
+          <div class="apps">
+            <p class="apps__title">Приєднуйтесь</p>
+            <ul class="apps__list">
+              <li class="apps__item">
+                <a class="apps__link" href="">
+                  <svg class="apps__icon" width="20" height="20">
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social-item">
-                <a class="social-link" href="">
-                  <svg class="social-icon" width="20" height="20">
+              <li class="apps__item">
+                <a class="apps__link" href="">
+                  <svg class="apps__icon" width="20" height="20">
                     <use href="./images/icons.svg#icon-Vector"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social-item">
-                <a class="social-link" href="">
-                  <svg class="social-icon" width="20" height="20">
+              <li class="apps__item">
+                <a class="apps__link" href="">
+                  <svg class="apps__icon" width="20" height="20">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social-item">
-                <a class="social-link" href="">
-                  <svg class="social-icon" width="20" height="20">
+              <li class="apps__item">
+                <a class="apps__link" href="">
+                  <svg class="apps__icon" width="20" height="20">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -442,7 +450,7 @@
               placeholder="E-mail"
               required
             />
-            <button class="follow-button" type="submit">
+            <button class="follow-button button" type="submit">
               Підписатися
               <svg class="follow-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-telegram"></use>
@@ -455,15 +463,15 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="button-close" type="button" data-modal-close>
-          <svg class="icon-close" width="18" height="18">
+        <button class="modal-close" type="button" data-modal-close>
+          <svg class="modal-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
 
         <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
 
-        <form class="modal-form" name="form-call">
+        <form class="form" name="form-call">
           <label class="form-item-list" for="name">
             <span class="form-item">Ім'я</span>
             <input class="form-input" type="name" name="name" id="name" />
@@ -499,16 +507,16 @@
             ></textarea>
           </label>
 
-          <label class="form-treaty" for="treaty">
+          <label class="condition" for="treaty">
             <input
-              class="input-treaty"
+              class="condition-input"
               type="checkbox"
               name="treaty"
               id="treaty"
             />
-            <span class="form-text-treaty"
+            <span class="condition-text"
               >Погоджуюся з розсилкою та приймаю
-              <a class="link-treaty" href="#">Умови договору</a>
+              <a class="condition-link" href="#">Умови договору</a>
             </span>
           </label>
 

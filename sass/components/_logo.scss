@@ -1,0 +1,17 @@
+.header-logo {
+  display: block;
+  width: 145px;
+  margin-right: 93px;
+}
+
+.logo-first {
+  color: var(--color-button);
+}
+
+.logo-second {
+  color: #000000;
+
+  &-color {
+    color: var(--background-color);
+  }
+}
